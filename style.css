@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(); /* Adicione a URL da imagem de fundo aqui */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    border-bottom: none; /* Remove a borda inferior dos itens da lista */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; 
+    transition: color 0.3s; 
+    border-bottom: none; /* Remove a borda inferior dos links, se houver */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cor ao passar o mouse */
+}
+
+main {
+    padding: 20px; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(76, 175, 80, 0.8); 
+    color: white;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+ul li:last-child {
+    border-bottom: none; 
+}
+
+.creditos {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.creditos a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.creditos a:hover {
+    text-decoration: underline;
+}
