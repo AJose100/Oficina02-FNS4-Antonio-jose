@@ -5,10 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(); /* Adicione a URL da imagem de fundo aqui */
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+   
 }
 
 header {
@@ -26,18 +23,18 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
-    border-bottom: none; /* Remove a borda inferior dos itens da lista */
+    border-bottom: none; 
 }
 
 nav ul li a {
     color: white;
     text-decoration: none; 
     transition: color 0.3s; 
-    border-bottom: none; /* Remove a borda inferior dos links, se houver */
+    border-bottom: none; 
 }
 
 nav ul li a:hover {
-    color: #FFD700; /* Cor ao passar o mouse */
+    color: #FFD700; 
 }
 
 main {
